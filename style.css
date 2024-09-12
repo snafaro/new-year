@@ -137,4 +137,96 @@ header{
 .card > h3{
     color: #444343;
 }
+
+.imgbanner{
+    background-image: url('images/gradient1.png'), url('images/watch.png') ;
+    width: 1140px;
+    height: 300px;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    margin: 150px auto ;
+}
+
+.imgbanner > div > h1{
+    max-width: 460px;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.imgbanner > div > button{
+    background-color: white;
+    color: rgba(0, 0, 255, 0.644);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+
+}
+
+
+
 /* main section end  */
+
+
+/* footer section start */
+
+footer{
+    background-color: #151414;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px ;
+}
+
+.future{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.future > h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+}
+
+.future > p {
+    color: white;
+    max-width: 485px;
+}
+
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.subscribe > h1{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.subscribe > input{
+    border: 1px solid white;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    color: white;
+    background: #151414;
+}
+
+.subscribe > button{
+    background-color: white;
+    color: orangered;
+    border-radius: 5px;
+    border: none;
+    padding: 20px 36px;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* footer section end */
