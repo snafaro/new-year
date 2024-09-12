@@ -3,7 +3,138 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1{
-    background-color: red;
-    color: white;
+
+
+
+body{
+    font-family: "Work Sans", sans-serif;
 }
+
+/* Header Section Start */
+
+header{
+    background-image: url('images/banner/banner1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row-reverse;
+    
+
+    
+}
+
+.header{
+    
+   margin: 230px;
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+   text-align: right;
+   align-items: end;
+
+    
+}
+
+.title{
+    font-weight: 700;
+    font-size: 65px;
+    max-width: 525px;
+    color: black;
+
+}
+
+.description{
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 500px;
+
+    color: rgb(102, 102, 102);
+}
+
+.btn{
+    color: white;
+    background-color: orangered;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: none;
+    width: 160px;
+    font-weight: 600px;
+    font-size: 20px;
+    
+    
+
+    
+}
+
+/* Header Section Start End */
+
+/* main section start */
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 130px 0;
+}
+
+.profile h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+
+.profile p {
+    color: #444343;
+    max-width: 415px;
+    line-height: 26px;
+}
+
+.profileText{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.profileText > ul > li{
+    list-style: none;
+    margin-top: 10px;
+}
+.profileText > ul > li > span{
+    color: green;
+} 
+
+.plan{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+
+}
+
+.plan > h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.plan2{
+    margin: 50px 330px;
+    display: flex;
+   justify-content: space-between;
+}
+.plan2 > div > img {
+    width: 100px;
+}
+
+.plan2 > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card > h3{
+    color: #444343;
+}
+/* main section end  */
